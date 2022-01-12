@@ -1,11 +1,24 @@
-GridLayout:
+StackLayout:
+#GridLayout:
 #AnchorLayout:
 #Boxlayout:
 #MainWidget:
 
 #delete example
 #<AnchorLayoutExample>
-
+<StackLayout>:
+    #left-right = lr
+    #top-bottom =tb
+    orientation : "rl-tb"
+    Button:
+        text: "A"
+        size_hint: .2,.2
+    Button:
+        text: "B"
+        size_hint: .2,.2
+    Button:
+        text: "C"
+        size_hint: .2,.2
 <GridLayout>:
     # rows
     # cols
