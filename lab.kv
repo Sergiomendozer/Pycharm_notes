@@ -1,8 +1,23 @@
-#
-Boxlayout:
-# MainWidget:
+AnchorLayout:
 
-<Boxlayout>:
+#Boxlayout:
+#MainWidget:
+
+#<AnchorLayoutExample>
+
+<AnchorLayout>:
+    # right,left, center
+    anchor_x: "center"
+    # bottom, top, center
+    anchor_y: "top"
+    Boxlayout:
+        size_hint: .2,.2
+        Button:
+            text: "A"
+        Button:
+            text: "B"
+
+<BoxlayoutExample>:
     #orientation: "vertical"
     Button:
         text: "A"
@@ -16,7 +31,6 @@ Boxlayout:
         text: "C"
         #size: "40dp", "40dp"
         size_hint: 1, 1
-
 
 <MainWidget>:
     Button:
