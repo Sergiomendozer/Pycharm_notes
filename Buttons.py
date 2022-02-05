@@ -6,14 +6,18 @@ from kivy.uix.widget import Widget
 from kivy.uix.button import Button
 from kivy.uix.boxlayout import BoxLayout
 
+###
 class StackLayout(StackLayout):
     pass
+
 
 class GridLayoutExample(GridLayout):
     pass
 
+
 class AnchorLayoutExample(AnchorLayout):
     pass
+
 
 class Boxlayout(BoxLayout):
     pass
@@ -24,10 +28,13 @@ class Boxlayout(BoxLayout):
         self.add_widget(b1)
         self.add_widget(b2)"""
 
+
 class MainWidget(Widget):
     pass
 
+
 class lab(App):
     pass
+
 
 lab().run()
